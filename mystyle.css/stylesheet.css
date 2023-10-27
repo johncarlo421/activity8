@@ -1,0 +1,52 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    
+}
+a:hover{
+    background-color: black;
+    padding: 10px;
+}
+nav{
+    background-color: gold;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    padding: 15px;
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid goldenrod;
+    padding: 20px;
+    border-radius: 30%;
+    box-shadow: 20px 20px 30px darkgray;
+    display: block;
+    margin: auto;
+
+}
+table   {
+
+    border: 1px solid blue;
+    border-collapse: collapse;
+    background-color: gold;
+}
+td  {
+    border: 1px solid black;
+    padding: 5px;
+}
+tr:nth-child(odd)   {
+    background-color: white;
+}
